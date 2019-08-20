@@ -1,0 +1,99 @@
+body {
+  background: gray;
+}
+
+.headerLeft {
+  position: absolute;
+  width: 15%;
+  height: 98%;
+  border-radius: 20px;
+  background: black;
+}
+
+img {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 5%;
+  border-radius: 150px;
+}
+
+h1 {
+  position: relative;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size-adjust: auto;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+#hrBar1 {
+  width: 90%;
+  border-width: medium;
+  border: solid orange;
+  border-radius: 5px;
+}
+
+.navBar {
+  position: relative;
+  width: 100%;
+  height: 40%;
+  margin: 5%;
+}
+ul {
+  list-style-type: none;
+  padding: 5%;
+  width: 80%;
+  text-align: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 10%;
+  text-decoration: none;
+  font-size: 28px;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+  border-radius: 25px;
+}
+
+.mainContainer {
+  position: absolute;
+  width: 84%;
+  height: 98%;
+  margin-left: 15%;
+  border-radius: 20px;
+  background: #241663;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+#hrAbout {
+width: 30%;
+border-width: medium;
+border: solid white;
+border-radius: 5px;
+margin-top: 3%;
+}
+
+.containerText {
+  text-align: center;
+  padding-top: 5%;
+  padding-left: 7%;
+  padding-right: 7%;
+  font-size: 30px;
+  color: white;
+
+}
