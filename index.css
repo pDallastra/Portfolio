@@ -2,6 +2,21 @@ body {
   background: gray;
 }
 
+.flex {
+  display: flex;
+}
+
+.row {
+  flex-flow: row;
+}
+
+.col {
+  flex-flow: column;
+}
+
+.center {
+  justify-content: center;
+}
 .headerLeft {
   position: absolute;
   width: 15%;
@@ -89,6 +104,7 @@ margin-top: 3%;
 }
 
 .containerText {
+  margin-top: 100px;
   text-align: center;
   padding-top: 5%;
   padding-left: 7%;
@@ -98,17 +114,21 @@ margin-top: 3%;
 
 }
 
-.dot {
-  height: 15px;
-  width: 15px;
-  background-color: white;
-  border-radius: 50%;
-  display: inline-block;
+.box1 {
+  width: 50vw;
+  height: auto;
+  text-align: center;
 }
 
-.spanText {
+.box1 a{
   color: white;
-  font-family: fantasy;
-  font-size: 28px;
 }
-`
+
+.box2 {
+    width: 50vw;
+    height: auto;
+    margin: auto;
+}
+.box2 a{
+  color: white;
+}
